@@ -5,12 +5,14 @@ header{
     display: flex;
     align-items: center;
     max-width: 600px;
+    font-family: 'Montserrat', sans-serif;
 }
 footer{
     padding: 16px;
     background-color: violet;
     text-align: center;
     max-width: 600px;
+    font-family: 'Montserrat', sans-serif;
 }
 .image01 {
     
