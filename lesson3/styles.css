@@ -9,7 +9,7 @@ header{
     background-color: beige;
     align-items: center;
     padding: 10px;
-    height: 100px;
+    min-height: 80px;
 }
 .logo{
     display: flex;
@@ -30,13 +30,17 @@ nav a{
     font-weight: 600;
     padding-right: 30px;
     font-size: 25px;
+    color:#8C442A;
+}
+nav a:hover{
+    color:#F2B694;
 }
 h3{
     font-size: 30px;  
     text-align: center;
 }
 h4{
-    font-size:20px ;
+    font-size:30px ;
     margin-top:  10px;
     margin-bottom: 10px;
 }
@@ -63,10 +67,31 @@ ul{
     padding-right: 30px;
     height: 200px;
 }
-.colors{
-    height:200px ;
-    display: block;
-    margin: auto;
+.blue{
+    background-color: #385273;
+    text-align: center;
+    padding: 10px;
+}
+.bluee{
+    background-color: #212E40;
+    text-align: center;
+    padding: 10px;
+}
+.pink{
+    background-color: #F2B694;
+    text-align: center;
+    padding: 10px;
+}
+.coffee{
+    background-color: #8C442A;
+    text-align: center;
+    padding: 10px;
+}
+.black{
+    background-color: #000;
+    text-align: center;
+    padding: 10px;
+    color: white;
 }
 .h1{
     font-family: 'Sarabun', sans-serif;
@@ -89,4 +114,63 @@ footer{
     background-color: beige;
     text-align: center;
     padding-top:10px;
+    padding-bottom: 10px;
+}
+@media (max-width:450px){
+    body{
+        padding-left: 0%;
+        padding-right: 0%;
+        margin: 10px;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo img{
+        height: 150px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    nav a{
+        font-weight: 600;
+        padding-right: 20px;
+        font-size: 18px;
+    }
+    main{
+        padding: 15px;
+    }
+    h3, h4{
+        font-size: 20px;
+        text-align: center;
+    }
+    .logo1{
+        height: 300px;
+        margin: auto;
+        display: block;
+    }
+    .persona1, .persona2{
+        display:block;
+    }
+    .image01, .image02{
+       display: block;
+       margin: auto; 
+       padding: 0%;
+    }
+    ul{
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }    
+}
+@media (min-width: 451px) and (max-width:950px) {
+    nav a{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 50% 50% 100%;
+        padding: 10px;        
+    }
+    h2{
+        padding: 10px;
+    }
 }
