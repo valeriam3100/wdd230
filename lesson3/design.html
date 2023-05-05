@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Sarabun:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo"> 
+            <img src="images/logo ovar.png" alt="logo">
+            <h2 class="nomber"> Design</h2>
+        </div>
+        <nav>
+            <a href="index.html" class="nav link">Home</a>
+            <a href="target-audience.html" class="nav link"> Target Audience</a>
+            <a href="design.html" class="nav link"> Design</a>
+        </nav>
+    </header>
+    <main>
+        <h3> Colors</h3>
+        <img src="images/Colors.PNG" class="colors" alt="colors for the page">
+        <h3>Typography</h3>
+        <ul>
+            <li> 
+                <h4 class="h1"> Header 1 (Sarabun - bold 700) </h4>
+            </li>
+            <li>
+                <h4 class="h2">Header 2 (Sarabun - semibold 600)</h4>
+            </li>
+            <li> 
+                <h4 class="h3"> Header 3 (Sarabun - medium 500)</h4>
+            </li>
+            <li>
+                <p class="para"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, iste. Expedita atque nobis error minima ratione quod itaque debitis adipisci vero velit repellat praesentium, sequi quo vitae molestiae asperiores placeat.<br>
+                (Poppins - regular 400)</p>
+            </li>
+        </ul>
+    </main>
+    <footer>
+        &copy; 2023 | Valeria Montoya |Lisbon <br>
+        Last Updated: <span id="lastUpdated"></span>
+    </footer>
+    <script> 
+        let lastUpdated = new Date(document.lastModified);
+        document.getElementById("lastUpdated").innerHTML = lastUpdated;
+        </script>
+</body>
+</html>

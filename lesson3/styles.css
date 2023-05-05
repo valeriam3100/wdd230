@@ -1,0 +1,92 @@
+body{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0%;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    background-color: beige;
+    align-items: center;
+    padding: 10px;
+    height: 100px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 200px;
+}
+.logo1{
+    margin: auto;
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 30px;
+    font-size: 25px;
+}
+h3{
+    font-size: 30px;  
+    text-align: center;
+}
+h4{
+    font-size:20px ;
+    margin-top:  10px;
+    margin-bottom: 10px;
+}
+main{
+    padding: 40px;
+}
+.persona1, .persona2{
+    display: flex;
+}
+.scenariopersona1, .scenariopersona2{
+    display: flex; 
+}
+h5{
+    font-size: 20px;
+    margin:5px;
+}
+p{
+    margin: 8px;
+}
+ul{
+    padding: 15px;
+}
+.image01, .image02{
+    padding-right: 30px;
+    height: 200px;
+}
+.colors{
+    height:200px ;
+    display: block;
+    margin: auto;
+}
+.h1{
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 700;
+}
+.h2{
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 600;
+}
+.h3{
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 500;
+}
+.para{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+}
+footer{
+    background-color: beige;
+    text-align: center;
+    padding-top:10px;
+}
