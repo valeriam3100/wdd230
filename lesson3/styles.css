@@ -31,7 +31,9 @@ nav a{
     padding-right: 30px;
     font-size: 25px;
     color:#8C442A;
+    
 }
+
 nav a:hover{
     color:#F2B694;
 }
@@ -115,6 +117,7 @@ footer{
     text-align: center;
     padding-top:10px;
     padding-bottom: 10px;
+
 }
 @media (max-width:450px){
     body{
@@ -161,7 +164,8 @@ footer{
     ul{
         padding-top: 0%;
         padding-bottom: 0%;
-    }    
+    }   
+     
 }
 @media (min-width: 451px) and (max-width:950px) {
     nav a{
@@ -173,4 +177,5 @@ footer{
     h2{
         padding: 10px;
     }
+   
 }
