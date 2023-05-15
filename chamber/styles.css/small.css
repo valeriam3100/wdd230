@@ -1,0 +1,110 @@
+body{
+  margin:0%
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    background-color: beige;
+    align-items: center;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+img{
+    height: 100px;
+}
+h1{
+    font-size: 15px;
+    font-family: 'Sarabun', sans-serif;
+    font-weight:700;
+    color: #385273;
+}
+nav {
+  
+    max-width: 800px;
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 700;
+  }
+  #header-date{
+    color: #385273;
+    font-family: 'Sarabun', sans-serif;
+    font-weight:700;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #F2B694;
+  }
+  .navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+  }
+  
+  .navigation li {
+    display: none;
+  }
+  
+  .navigation li:first-child {
+    display: block;
+  }
+  
+  .navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-decoration: none;
+    color:#385273;
+  }
+  
+   
+  .navigation a:hover {
+    color:#385273;
+    background-color: #F2B694;
+  }
+  
+  .responsive li{
+    display: block;
+    margin: 10px;
+  }
+  .box1, .box2, .box3, .box4, .box5, .box6{
+   height: 230px;
+   border: 2px solid black;
+   background-color: #385273;   
+   margin: 15px;  
+   text-align: center;
+   font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+  }
+
+  .box7, .box8{
+    display: none;
+  }
+  .togetherbox{
+    border:2px solid black; ;
+    background-color:#212E40 ;
+    margin-bottom: 15px;
+  }
+  footer{
+    background-color: beige;
+    text-align: center;
+    padding-top:10px;
+    
+    
+}
+h3{
+  font-family: 'Sarabun', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+#lastUpdated{
+  font-family: 'Sarabun', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+.footer{
+  font-family: 'Sarabun', sans-serif;
+    font-weight: 500;
+}
+  
+  
