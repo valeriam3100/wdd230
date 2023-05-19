@@ -67,7 +67,7 @@ nav {
     display: block;
     margin: 10px;
   }
-  .box1, .box2, .box3, .box4, .box5, .box6{
+   .box2, .box3, .box4, .box5, .box6{
    height: 230px;
    border: 2px solid black;
    background-color: #385273;   
@@ -76,7 +76,16 @@ nav {
    font-family: 'Poppins', sans-serif;
     font-weight: 400;
   }
-
+.firstimage{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.box1{
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
   .box7, .box8{
     display: none;
   }
