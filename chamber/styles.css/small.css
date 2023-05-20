@@ -41,7 +41,7 @@ nav {
     text-align: center;
     padding: 0;
   }
-  
+
   .navigation li {
     display: none;
   }
@@ -67,37 +67,94 @@ nav {
     display: block;
     margin: 10px;
   }
-   .box2, .box3, .box4, .box5, .box6{
-   height: 230px;
-   border: 2px solid black;
-   background-color: #385273;   
-   margin: 15px;  
-   text-align: center;
-   font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-  }
-.firstimage{
+#box1{
   position: relative;
-  display: inline-block;
+}
+#box1 h2{
+  position: absolute;
+  left: 90px;
+  color:#8C442a;
+  background-color: #F2B694;
+  z-index: 1;
+  font-family: 'Sarabun', sans-serif;
+    font-weight: 600;
+}
+#box1 img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+#box1 .call{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 10px;
+  background-color: #385273;
+  color: #F2B694;
+  font-size: 20px;
+}
+
+#box2, #box3, #box4, .box5, .box6{
+  height: 195px;
+  border-radius: 10px ;
+  background-color:#F2B694;  
+  color: #8C442a; 
+  margin-top: 15px;  
   text-align: center;
-}
-.box1{
-  position: relative;
-  top: 10px;
-  left: 10px;
-}
+  font-family: 'Poppins', sans-serif;
+   font-weight: 400;
+ }
+ #box2, #box3, #box4  h2{
+  padding-top: 25px;
+ }
+ p{
+  font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-shadow: none;
+    color: black;
+    font-size: 20px;
+    line-height: 25px;
+ }
+ #box3 .icon{
+  color:#8C442a;
+  padding-right: 20px;
+  font-size: 30px;
+ }
+ #box3 p{
+  font-size: 30px;
+ }
+
   .box7, .box8{
     display: none;
   }
+  .box5, .box6{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
   .togetherbox{
-    border:2px solid black; ;
+    border-radius: 2px;
     background-color:#212E40 ;
-    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .box5 img , .box6 img{
+    height: 60px;
+  }
+  .box5 p, .box6 p{
+    font-size: 15px;
+    line-height: normal;
+  }
+  .contact{
+    border-top: 1px solid #212E40 ;
   }
   footer{
     background-color: beige;
     text-align: center;
     padding-top:10px;
+    margin-top: 15px;
     
     
 }
