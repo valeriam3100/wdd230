@@ -21,6 +21,15 @@ h1{
     font-weight:700;
     color: #385273;
 }
+.banner{
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  background-color: #F2B694;
+  color: #8C442a;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
 nav {
   
     max-width: 800px;
@@ -61,6 +70,7 @@ nav {
   .navigation a:hover {
     color:#385273;
     background-color: #F2B694;
+    border-radius: 8px;
   }
   
   .responsive li{
@@ -94,6 +104,8 @@ nav {
   background-color: #385273;
   color: #F2B694;
   font-size: 20px;
+  font-family: 'Sarabun', sans-serif;
+    font-weight: 700;
 }
 
 #box2, #box3, #box4, .box5, .box6{
@@ -135,7 +147,7 @@ nav {
   }
   .togetherbox{
     border-radius: 2px;
-    background-color:#212E40 ;
+    background-color: #8C442a ;
     margin-top: 15px;
     padding-top: 15px;
     padding-bottom: 15px;

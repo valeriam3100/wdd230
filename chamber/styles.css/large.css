@@ -61,13 +61,22 @@
             display: block;
             grid-row: 3/4;
           height: 230px;
-             border: 2px solid black;
-             background-color: #385273;   
+             border-radius: 15px;
+             background-color:#F2B694;   
              margin: 15px;  
              text-align: center;
              font-family: 'Poppins', sans-serif;
               font-weight: 400;
               font-size: 20px;
+              color: #8C442a;
+              height: 250px;
           }
+    .box7 img, .box5 img, .box6 img{
+        height: 90px;
+    }
+    .box5 p, .box6 p,.box7 p{
+        font-size: 15px;
+        line-height: 0%;
+
     }
 

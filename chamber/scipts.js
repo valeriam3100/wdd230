@@ -8,4 +8,12 @@ function togglemenu() {
   document.getElementById('header-date')
     .innerText = nowDate; 
 
+function displayChange(){
+  document.querySelector(".banner").style.display="block";
+}
+const clsBan = document.querySelector(".bannerbtn");
+clsBan.addEventListener('click', () => {
+  document.querySelector(".banner").style.display="none";
+});
+
     

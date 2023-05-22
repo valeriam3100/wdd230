@@ -1,5 +1,13 @@
-@media only screen and (min-width:35rem) {
-    img{
+@media only screen and (min-width:35rem) {  
+  #box1{
+    grid-column: 1/3;
+    font-size: 20px;
+    margin: 15px;
+  }
+  #box1 h2{
+    font-size: 40px;
+  }
+  img{
       height: 150px;
   }
   h1, .navigation, #header-date{
@@ -8,53 +16,71 @@
   .navigation{
     margin-right: 25px;
   }
+  #box1 .call{
+    height: 50px;
+  }
   .columns{
     display: grid;
     grid-template-columns: 65% auto;
   }
-  .box1{
-    grid-column: 1/3;
-    font-size: 20px;
-  }
-  .box4{
+
+  #box4{
     grid-row: 2/3;
     grid-column:1/3 ;
     font-size: 20px;
+    margin: 15px;
   }
   
   .togetherbox{
     margin: 15px;
     display: grid;
     grid-column: 1/3;
+    padding-top: 0%;
   }
   .box5{
     grid-column: 1/2;
     font-size: 20px;
+    height: 250px;
   }
   .box6{
     grid-column: 2/3;
     font-size: 20px;
+    height: 250px;
+  }
+  .box5 img, .box6 img{
+    height: 75px;
   }
   .box8{
     display: grid;
     grid-column: 1/3;
     grid-row: 4/5;
   height: 230px;
-     border: 2px solid black;
-     background-color: #385273;   
-     margin: 15px;  
+     background-color: #F2B694;   
+     margin: 15px; 
+     border-radius: 10px; 
      text-align: center;
      font-family: 'Poppins', sans-serif;
       font-weight: 400;
       font-size: 20px;
   }
-  .box2{
+  .joinbotton{
+    width: 100%;
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 700;
+    
+    border-radius: 15px;
+    background-color: #8C442a;
+    color: #F2B694;
+    text-align: center;
+  }
+  #box2{
     grid-row:5/6 ;
     font-size: 20px;
   }
-  .box3{
+  #box3{
     grid-row: 5/6;
     font-size: 20px;
+    margin: 15px;
   }
   .info{
     display:flex;
@@ -66,9 +92,4 @@
     margin: 25px;
     font-size: 15px;
   }
-  }
-    @media (max-width:00px) {
-    img{
-      height: 200px;
-  }
-    }
+  
