@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="styles.css/medium.css">
     <link rel="stylesheet" href="styles.css/large.css">
     <link rel="stylesheet" href="style.css">
+    <style>
+        img{
+            max-width: 100%;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -18,7 +23,7 @@
         </p>
         </div>
         <div class="logo"> 
-            <img src="images/logoovar.png" alt="logo">
+            <img src="images/logoovar.webp" alt="logo">
             <h1 class="name">Chamber of Commerce</h1>
         </div>
         <nav> 
@@ -33,14 +38,17 @@
         </nav>
     </header>
     <span id="header-date"></span>
-    <script src="scipts.js" ></script>
+    <script src="scripts.js/scripts.js" ></script>
     <main>
-        <div class="columns">
+        <section id="columns">
             <section id="box1">
                 <h2>Welcome to Ovar</h2>
-                <div class="firstimage">
-                    <img src="images/imgLoader.jpg" alt="ovarcity">
-                <button class="call"> Join the chamber
+                <picture>
+                    <source media="(min-width:990px)" srcset="images/hero-large.jpg">
+                    <source media="(min-width:651px)" srcset="images/hero-medium.jpg">
+                    <img src="images/hero-small.jpg"  alt="hero">
+                </picture>
+                    <button class="call"> Join the chamber
                 </button>  
               </div>
             </section>
@@ -51,8 +59,18 @@
             </section>
             <section id="box3" class="style">
                 <h2>Weather</h2>
-                <p><span class="icon icon-sun"></span>69°F</p>
-                </section>
+                <p><span class="icon icon-sun"></span><span id="temp"></span>69°F</p>
+                <p>Party Cloud</p>
+                <p>
+                    Wind Speed:
+                    <span id="ws">33</span> 
+                    mph 
+                </p>
+                <p>
+                    Wind Chill: 
+                    <span id="wc">N/A</span>
+                </p>
+            </section>
             <section id="box4" class="style">
                 <h2>New Release</h2>
                 <p>Lorem ipsum dolor sit, consequatur nulla autem harum nesciunt dolores incidunt deleniti doloremque aperiam quia voluptates explicabo? Deleniti.</p>
@@ -60,7 +78,11 @@
             <div class="togetherbox" class="style">
             <div class="box5">
                 <h2>Spotlight 1</h2>
-                <img src="images/iefp.png" alt="courses">
+                <picture>
+                    <source media="(min-width:990px)" srcset="images/iefp-large.jpg">
+                    <source media="(min-width:651px)" srcset="images/iefp-medium.jpg">
+                <img src="images/iefp-small.jpg" alt="courses">
+                </picture>
                 <p class="paragra">Lorem sit amet consectetur adipisicing elit.</p>
                  <div class="contact">
                     <p>Phone Number: +351 938478632</p>
@@ -68,7 +90,10 @@
             </div>
             <div class="box6">
                 <h2>Spotlight 2</h2>
-                <img src="images/ovar1.jpg" alt="street">
+                <picture>
+                    <source media="(min-width:990px)" srcset="images/ovar-medium.jpg">
+                <img src="images/ovar1-small.jpg" alt="street">
+                </picture>
                 <p>Lorem sit amet consectetur adipisicing elit</p>
             <div class="contact">
                 <p>Phone Number: +351  938478632</p>
@@ -87,6 +112,7 @@
             <button class="joinbotton">Join Us!</button>
             <p>Discover how to join the chamber of commerce and what beneits your organization caan receive!</p>
         </div>
+        </section>
     </main>
     <footer>
         <div class="info">

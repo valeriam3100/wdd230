@@ -15,5 +15,3 @@ const clsBan = document.querySelector(".bannerbtn");
 clsBan.addEventListener('click', () => {
   document.querySelector(".banner").style.display="none";
 });
-
-    
