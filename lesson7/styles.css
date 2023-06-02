@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    margin: 20px;
+    background-color: antiquewhite;
+}
+.images{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+img{
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 3px 10px 0 rgba(0, 0, 0, 0.20);
+    transition: .3s;
+}
+img[image-src]{
+    border-radius: 15%;
+}
