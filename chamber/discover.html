@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover</title>
+    <link rel="stylesheet" href="styles.css/discover.css">
+    <link rel="stylesheet" href="styles.css/small.css">
+    <link rel="stylesheet" href="styles.css/medium.css">
+    <link rel="stylesheet" href="styles.css/large.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="scripts.js/scripts.js" ></script>
+</head>
+<body>
+    <header>
+        <div class="banner" style=" display: block;">
+        <p>"🤝 Come join us for the chamber meet and Ovar Fair Thirsday at 17h"
+            <button class="bannerbtn">❌</button>
+        </p>
+        </div>
+        <div class="logo"> 
+            <img src="images/logoovar.webp" alt="logo">
+            <h1 class="name">Discover</h1>
+        </div>
+        <nav> 
+            <ul class="navigation">
+            <li><a href="#" onclick="togglemenu()">&#9776; Menu</a></li>   
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Contact</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <span id="header-date"></span>
+        <div class="imagee1">
+        <picture class="discover-pics">
+            <source media="(min-width:990px)" srcset="images/portul1.jpg">
+            <source media="(min-width:661px)" srcset="images/portum1.jpg">
+            <img src="images/portu1.jpg" alt="image1">
+        </picture>
+        <p></p>
+        </div>
+        <div class="imagee2">
+        <picture>
+            <source media="(min-width:990px)" srcset="images/portul2.jpg">
+            <source media="(min-width:661px)" srcset="images/portum2.jpg">
+            <img src="images/portu2.jpg" alt="image2">
+        </picture>
+        </div>
+        <div class="imagee3">
+        <picture>
+            <source media="(min-width:990px)" srcset="images/portul3.jpg">
+            <source media="(min-width:661px)" srcset="images/portum3.jpg">
+            <img src="images/portu3.jpg" alt="image3">
+        </picture>
+        </div>
+        <div class="imagee4">
+        <picture>
+            <source media="(min-width:990px)" srcset="images/portul4.jpg">
+            <source media="(min-width:661px)" srcset="images/portum4.jpg">
+            <img src="images/portu4.jpg" alt="image4">
+        </picture>
+        </div>
+        <div class="imagee5">
+        <picture>
+            <source media="(min-width:990px)" srcset="images/portul5.jpg">
+            <source media="(min-width:661px)" srcset="images/portum5.jpg">
+            <img src="images/portu5.jpg" alt="image5">
+        </picture>
+        </div>
+    </main>
+    <footer>
+        <div class="info">
+        <img src="images/logoovar.png" alt="logo2">
+        <h1 class="name">Chamber of Commerce </h1>         
+        <h3>Rua Ribeiras do caster 44<br>ovarcomerce@chamber.pt <br> 936245874</h3></div>
+
+       <div class="footer"> &copy; 2023 | Valeria Montoya | Lisbon | Last Updated:</div> <span id="lastUpdated"></span>
+    </footer>
+    <script>
+        let lastUpdated = new Date(document.lastModified);
+        document.getElementById("lastUpdated").innerHTML = lastUpdated;
+    </script>
+</body>
+</html>
