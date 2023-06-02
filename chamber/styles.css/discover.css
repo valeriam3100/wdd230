@@ -1,0 +1,8 @@
+picture{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagee1 img, .imagee2 img, .imagee3 img, .imagee4 img, .imagee5 img{
+    height:auto;
+}
