@@ -8,6 +8,9 @@
     nav ul{
         display: flex;
     }
+    #header-date{
+        height: 25px;
+    }
     #columns{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -79,10 +82,50 @@
         line-height: 0%;
 
     }
+    .first, .second{
+        background-color: #F2B694;
+        border-radius: 10px;
+        margin-left: 280px;
+        margin-right: 280px;
+        height: 90px;
+        text-align: center;
+      }
+      .first h1, .second h1{
+        padding-top: 15px;
+        font-size: 20px;
+      }
 
-    /* main discover */
 
     
 }
+
+ /* main discover */
+ /*picture{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagee1 img, .imagee2 img, .imagee3 img, .imagee4 img, .imagee5 img{
+  height:auto;
+}
+.first h1, .second h1{
+  padding-top: 15px;
+  font-size: 20px;
+}
+#allimages h2{
+  text-align: center;
+  margin-top: 45px;
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 600;
+  color: #8C442a;
+}
+#allimages p{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: #8C442a;
+  
+}
+
 
 

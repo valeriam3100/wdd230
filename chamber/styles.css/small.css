@@ -42,8 +42,10 @@ nav {
     font-weight:700;
     display: block;
     text-align: center;
-    padding: 10px;
+    padding-bottom: 8px;
     background-color: #F2B694;
+    height: 10px;
+    font-size: 15px;
   }
   .navigation {
     list-style: none;
@@ -196,12 +198,48 @@ h3{
   font-family: 'Sarabun', sans-serif;
     font-weight: 500;
 }
+  /* main discover*/
+  .last h1{
+    background-color: #8C442a ;
+    text-align: center;
+    color: #F2B694;
+    font-size: 15px;
+  }
+  picture{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  .first, .second{
+    background-color: #F2B694;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 80px;
+    text-align: center;
+  }
+  .first h1, .second h1{
+    font-size: 15px;
+    padding-top: 5px;
+  }
+  .imagee1 img, .imagee2 img, .imagee3 img, .imagee4 img, .imagee5 img{
+    height:auto;
+  }
+  #allimages h2{
+    text-align: center;
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 600;
+    color: #8C442a;
+    margin-top: 35px;
+  }
+  #allimages p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #8C442a;
+  }
+
   
-/* header */
 
-  /* main home*/
-
-  /* main discover */
-
-
+ 
   /* footer */

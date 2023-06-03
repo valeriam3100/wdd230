@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discover</title>
-    <link rel="stylesheet" href="styles.css/discover.css">
     <link rel="stylesheet" href="styles.css/small.css">
     <link rel="stylesheet" href="styles.css/medium.css">
     <link rel="stylesheet" href="styles.css/large.css">
     <link rel="stylesheet" href="style.css">
     <script defer src="scripts.js/scripts.js" ></script>
+    <script defer src="scripts.js/lazyload.js"></script>
 </head>
 <body>
     <header>
@@ -36,53 +36,58 @@
     </header>
     <main>
         <span id="header-date"></span>
+        <div class="last">
+        <h1 class="lastVisit">Days Since Last Visit</h1>
+        </div>
+        <div class="first">
         <h1>Ovar is a Portuguese city located in the Aveiro district, Centro Region and inter-municipal community of Aveiro, with about 17,200 inhabitants.</h1>
+        </div>
+        <section id="allimages">
         <div class="imagee1">
             <h2>Pena Palace</h2>
         <picture class="discover-pics">
-            <source media="(min-width:990px)" srcset="images/portul1.jpg">
-            <source media="(min-width:661px)" srcset="images/portum1.jpg">
-            <img src="images/portu1.jpg" alt="image1">
+            <source media="(min-width:990px)" srcset="images/portum1.jpg">
+            <img src="images/loading.jpg"  some-image="images/portu1.jpg" alt="image1">
         </picture>
-        <p>It was one of the main residences of the Portuguese royal family during the 19th century.</p>
+        <p>It was one of the main residences of the Portuguese royal family during the<br> 19th century.</p>
         </div>
         <div class="imagee2">
             <h2>Cabo da Roca</h2>
         <picture>
-            <source media="(min-width:990px)" srcset="images/portul2.jpg">
-            <source media="(min-width:661px)" srcset="images/portum2.jpg">
-            <img src="images/portu2.jpg" alt="image2">
+            <source media="(min-width:990px)" srcset="images/portum2.jpg">
+            <img src="images/loading.jpg"  some-image="images/portu2.jpg" alt="image2">
         </picture>
-        <p>It is the cape located at the westernmost point of continental Portugal and, therefore, of the Iberian Peninsula and of continental Europe.</p>
+        <p>It is the cape located at the westernmost point of continental Portugal and,<br>
+             therefore, of the Iberian Peninsula and of continental Europe.</p>
         </div>
         <div class="imagee3">
             <h2>Caldas da Rainha</h2>
         <picture>
-            <source media="(min-width:990px)" srcset="images/portul3.jpg">
-            <source media="(min-width:661px)" srcset="images/portum3.jpg">
-            <img src="images/portu3.jpg" alt="image3">
+            <source media="(min-width:990px)" srcset="images/portum3.jpg">
+            <img src="images/loading.jpg"  some-image="images/portu3.jpg" alt="image3">
         </picture>
         <p>It is part of the "Turismo do Centro".</p>
         </div>
         <div class="imagee4">
             <h2>Aveiro, Portugal</h2>
         <picture>
-            <source media="(min-width:990px)" srcset="images/portul4.jpg">
-            <source media="(min-width:661px)" srcset="images/portum4.jpg">
-            <img src="images/portu4.jpg" alt="image4">
+            <source media="(min-width:990px)" srcset="images/portum4.jpg">
+            <img src="images/loading.jpg"  some-image="images/portu4.jpg" alt="image4">
         </picture>
         <p>Historical center, surrounded by colonial houses and churches of the time.</p>
         </div>
         <div class="imagee5">
             <h2>Comboio, Portugal</h2>
         <picture>
-            <source media="(min-width:990px)" srcset="images/portul5.jpg">
-            <source media="(min-width:661px)" srcset="images/portum5.jpg">
-            <img src="images/portu5.jpg" alt="image5">
+            <source media="(min-width:990px)" srcset="images/portum5.jpg">
+            <img src="images/loading.jpg"  some-image="images/portu5.jpg" alt="image5">
         </picture>
         <p>Common transport of Portugal, which crosses the entire country.</p>
         </div>
+        <div class="second">
         <h1>Ovar is in a strategic region and with advantages for transportation, since it has several national highways.</h1>
+        </div>
+        </section>
     </main>
     <footer>
         <div class="info">

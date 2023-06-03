@@ -14,7 +14,7 @@ body {
 img{
     border-radius: 5px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 3px 10px 0 rgba(0, 0, 0, 0.20);
-    transition: .3s;
+    transition: .1s;
 }
 img[image-src]{
     border-radius: 15%;
