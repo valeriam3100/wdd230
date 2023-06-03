@@ -94,7 +94,10 @@
         padding-top: 15px;
         font-size: 20px;
       }
+      figure {background-color:#fff;}
+      .discover-pics:hover{box-shadow: 0 0 50px #333;
 
+      }
 
     
 }
