@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join</title>
+    <link rel="stylesheet" href="styles.css/small.css">
+    <link rel="stylesheet" href="styles.css/medium.css">
+    <link rel="stylesheet" href="styles.css/large.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="scripts.js/scripts.js" ></script>
+    <header>
+        <div class="banner" style=" display: block;">
+        <p>"🤝 Come join us for the chamber meet and Ovar Fair Thirsday at 17h"
+            <button class="bannerbtn">❌</button>
+        </p>
+        </div>
+        <div class="logo"> 
+            <img src="images/logoovar.webp" alt="logo">
+            <h1 class="name">Join</h1>
+        </div>
+        <nav> 
+            <ul class="navigation">
+            <li><a href="#" onclick="togglemenu()">&#9776; Menu</a></li>   
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Contact</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <span id="header-date"></span>
+    <main>
+        <div id="member">
+        <h1>Membership Application</h1>
+        <form method="get" action="thanks.html">
+            <p class="full">* Required Field</p>
+
+            <label for="firstname"
+            class="requi">First Name *</label>
+            <input type="text" id="firstname" name="firstname" required placeholder="Please enter your first name">
+            <label for="lastname"
+            class="requi">Last Name *</label>
+            <input type="text" id="lastname" name="lastname" required placeholder="Please enter your last name">
+            <label for="businesspositiontitle">Business Position Title</label>
+            <input type="text" id="position" name="businesspositiontitle" required >
+            <label for="email"
+            class="requi">Email *</label>
+            <input type="email" id="email" name="email" required placeholder="name@example.com">
+            <label for="phone"
+            class="requi">Cell Phone Number </label>
+            <input type="tel" id="phone" name="phone" placeholder="255789631">
+            <label for="businessname"
+            class="requi">Business Name *</label>
+            <input type="text" id="businessname" name="businessname" required placeholder="Please enter your Bussines name">
+            <div>Membership Level </div>
+            <label><input type="radio" id="membershiplevel" name="membershiplevel" value="NP Membership">NP Membership is for non profit organizations and there is no fee</label>
+            <label><input type="radio" id="membershiplevel" name="membershiplevel" value="Bronze Membership">Bronze Membership</label>
+            <label><input type="radio" id="membershiplevel" name="membershiplevel" value="Silver Membership">Silver Membership</label>
+            <label><input type="radio" id="membershiplevel" name="membershiplevel" value="Gold Membership">Gold Membership</label>
+            <label for="businessdescription"> Business Description</label>
+            <input type="text" id="businessdescription" name="businessdescription" required placeholder="Briefly describe your business">
+            <label for="date"></label>
+        </main>
+
+</head>
+<body>
+    <footer>
+        <div class="info">
+        <img src="images/logoovar.png" alt="logo2">
+        <h1 class="name">Chamber of Commerce </h1>         
+        <h3>Rua Ribeiras do caster 44<br>ovarcomerce@chamber.pt <br> 936245874</h3></div>
+
+       <div class="footer"> &copy; 2023 | Valeria Montoya | Lisbon | Last Updated:</div> <span id="lastUpdated"></span>
+    </footer>
+    <script>
+        let lastUpdated = new Date(document.lastModified);
+        document.getElementById("lastUpdated").innerHTML = lastUpdated;
+    </script>
+</body>
+</html>
