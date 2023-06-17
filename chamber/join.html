@@ -37,32 +37,36 @@
         <h1>Membership Application</h1>
         <form method="get" action="thanks.html">
             <p class="full">* Required Field</p>
-
-            <label for="firstname"
-            class="requi">First Name *</label>
-            <input type="text" id="firstname" name="firstname" required placeholder="Please enter your first name">
-            <label for="lastname"
-            class="requi">Last Name *</label>
-            <input type="text" id="lastname" name="lastname" required placeholder="Please enter your last name">
-            <label for="businesspositiontitle">Business Position Title</label>
-            <input type="text" id="position" name="businesspositiontitle" required >
-            <label for="email"
-            class="requi">Email *</label>
-            <input type="email" id="email" name="email" required placeholder="name@example.com">
-            <label for="phone"
-            class="requi">Cell Phone Number </label>
-            <input type="tel" id="phone" name="phone" placeholder="255789631">
-            <label for="businessname"
-            class="requi">Business Name *</label>
-            <input type="text" id="businessname" name="businessname" required placeholder="Please enter your Bussines name">
-            <div>Membership Level </div>
+            <fieldset class="Personal">
+                <legend> Personal Information</legend>
+            <label class="requi">First Name *
+            <input type="text" id="firstname" name="firstname" required placeholder="Please enter your first name"></label><br>
+            <label class="requi">Last Name *
+            <input type="text" id="lastname" name="lastname" required placeholder="Please enter your last name"></label><br>
+            <label class="requi">Business Position Title
+            <input type="text" id="position" name="businesspositiontitle" required ></label><br>
+            <label class="requi">Email *
+            <input type="email" id="email" name="email" required placeholder="name@example.com"></label><br>
+            <label class="requi">Cell Phone Number
+            <input type="tel" id="phone" name="phone" placeholder="255789631"></label><br>
+            <label class="requi">Business Name *
+            <input type="text" id="businessname" name="businessname" required placeholder="Please enter your Bussines name"></label><br>
+            </fieldset>
+            <fieldset class="membership">
+                <legend>Membership Level</legend>
             <label><input type="radio" id="membershiplevel" name="membershiplevel" value="NP Membership">NP Membership is for non profit organizations and there is no fee</label>
             <label><input type="radio" id="membershiplevel" name="membershiplevel" value="Bronze Membership">Bronze Membership</label>
             <label><input type="radio" id="membershiplevel" name="membershiplevel" value="Silver Membership">Silver Membership</label>
             <label><input type="radio" id="membershiplevel" name="membershiplevel" value="Gold Membership">Gold Membership</label>
+            </fieldset>
+            <fieldset>
+                <legend>Additional Information</legend>
             <label for="businessdescription"> Business Description</label>
             <input type="text" id="businessdescription" name="businessdescription" required placeholder="Briefly describe your business">
-            <label for="date"></label>
+            </fieldset>
+            <input type="hidden" name="datatime" id="date-input">
+            <input type="submit" value="Join the Chamber" class="btn">
+            </form>
         </main>
 
 </head>
