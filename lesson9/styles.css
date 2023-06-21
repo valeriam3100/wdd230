@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Comme&family=Montserrat&display=swap');
+
+body {
+    background-color:#F2B694;
+    font-family: 'Sarabun', sans-serif;
+    text-align: center;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    column-gap: 1em;
+    row-gap: 1em;
+}
+
+section {
+    font-family: 'Poppins', sans-serif;
+    border: 3px solid #8C442a;
+    border-radius: 8px;
+    background-color: rgba(0,0,0,0.2);
+    
+}
+
+footer{
+    font-size: 1em;
+    margin-top: 2em;
+}
