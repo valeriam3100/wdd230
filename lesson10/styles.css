@@ -1,0 +1,28 @@
+.title {
+    text-align: center;
+    background-color:#8C442a;
+    font-family: 'Sarabun', sans-serif;
+    color:#F2B694;
+    height: 50px;
+}
+h1{
+    padding: 8px;
+}
+h2{
+    text-align: center;
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 600;
+}
+footer {
+    font-family: 'Sarabun', sans-serif;
+    text-align: center;
+}
+figure{
+    text-align: center;
+    background-color: #F2B694;
+    font-family: 'Sarabun', sans-serif;
+    width: auto;
+}
+figcaption{
+    padding-bottom: 28px;
+}
