@@ -1,0 +1,29 @@
+<form action="/submit" method="post">
+    <fieldset>
+      <legend>Build Your Own Specialty Drink</legend>
+      <input type="text" name="first_name" placeholder="First Name">
+      <input type="email" name="email" placeholder="Email">
+      <input type="tel" name="phone_number" placeholder="Phone Number">
+      <select name="fruit_1">
+        <option value="">Select Fruit 1</option>
+        {% for fruit in fruits %}
+          <option value="{{ fruit.id }}">{{ fruit.name }}</option>
+        {% endfor %}
+      </select>
+      <select name="fruit_2">
+        <option value="">Select Fruit 2</option>
+        {% for fruit in fruits %}
+          <option value="{{ fruit.id }}">{{ fruit.name }}</option>
+        {% endfor %}
+      </select>
+      <select name="fruit_3">
+        <option value="">Select Fruit 3</option>
+        {% for fruit in fruits %}
+          <option value="{{ fruit.id }}">{{ fruit.name }}</option>
+        {% endfor %}
+      </select>
+      <textarea name="special_instructions" placeholder="Special Instructions"></textarea>
+      <input type="submit" value="Submit">
+    </fieldset>
+  </form>
+  
