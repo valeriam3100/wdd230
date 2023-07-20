@@ -7,25 +7,33 @@
     <link rel="stylesheet" href="style.css/small.css">
     <link rel="stylesheet" href="style.css/medium.css">
     <link rel="stylesheet" href="style.css/large.css">
+    <script defer src="scripts.js" ></script>
 </head>
 <body>
 <header>
-    <section class="hero">
-        <img src="images/iloveimg-compressed/julia-zolotova-M_xIaxQE3Ms-unsplash (1) (1) (1).jpg" alt="fruits">
 <h1>Bountiful Foods</h1>
 <nav>
-<a href="index.html">Home</a>
-<a href="fresh.html">Fresh</a>
-<a href="Aboutus.html">About us</a>
+    <ul class="navigation">
+<li><a href="#" onclick="togglemenu()">&#9776; Menu</a></li>
+<li><a href="index.html">Home</a></li>
+<li><a href="fresh.html">Fresh</a></li>
+<li><a href="Aboutus.html">About us</a></li>
+</ul>
 </nav>
-<button class="btn">Make your own drink</button>
-    </section>
 </header>
 <main>
+<section id="hero">
+    <picture>
+    <img src="images/iloveimg-compressed/julia-zolotova-M_xIaxQE3Ms-unsplash (2).jpg" alt="fruits">
+    </picture>
+    <button class="btn">Make your own drink</button>
+    </section>
 <section class="summary">
-<h2>About Carlsbad</h2>
-<p>Carlsbad is a beautiful coastal city in Southern California. It's known for its beaches, its golf courses, and its many parks.</p>
-<p>The weather in Carlsbad is mild year-round, making it a great place to live, work, or visit.</p>
+<p>Bountiful foods brings you the freshest fruits and if you don't have time to prepare your own drinks we also make life easier for you, bringing you your favorite drinks.</p>
+<p>In this heat the most refreshing thing would be a watermelon or maybe a cold lemonade, don't miss out on trying our fruits brought by our farmers and the drinks made by us.</p>
+</section>
+<section class="juice">
+<img src="images/iloveimg-compressed/jul-chi-Jn4NYMQjQO4-unsplash (2) (1).jpg" alt="juice">
 </section>
 <section id="fresh">
 <h2>Make your own fruit drink</h2>
@@ -38,7 +46,7 @@
 <li>Blueberry banana smoothie</li>
 </ul>
 </p>
-<a href="#" class="btn">Start making your drink</a>
+<a href="fresh.html" class="btn">Try it</a>
 </section>
 <section class="weather">
 <h2>Current weather</h2>
@@ -61,7 +69,7 @@
 </section>
 </main>
 <footer>
-<p>Copyright &copy; 2023 Fresh Fruit Drinks</p>
+<p>Copyright &copy; 2023 Bountiful Foods</p>
 </footer>
 </body>
 </html>

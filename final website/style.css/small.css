@@ -1,39 +1,129 @@
-body{
-    margin:0%
+body {
+    line-height: 1.5;
   }
-  header{
-      display:flex;
-      justify-content: space-between;
-      background-color: beige;
-      align-items: center;
+  
+  h1, h2 {
+    font-size: 30px;
+    margin-left: 20px;
+    color: #590E15;
+    font-family: 'Barlow', sans-serif;
+  }
+  h2{
+    text-align: center;
+    margin: 0%;
+  }
+  p{
+    font-family: 'Barlow', sans-serif;
+  }
+  
+  a {
+    color: #A60A17;
+    text-decoration: none;
+    font-family: 'Barlow', sans-serif;
+  }
+  ul{
+    color:#590E15;
+  }
+
+  .navigation {
+    list-style: none;
+    text-align:right;
+    padding: 0;
+  }
+
+  .navigation li {
+    display: none;
+  }
+  
+  .navigation li:first-child {
+    display: block;
+  }
+  
+  .navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-decoration: none;
+    color:#590E15;
+    font-size: 30px;
+  }
+  
+   
+  .navigation a:hover {
+    color:#590E15;
+    background-color: #91A646;
+    border-radius: 8px;
+  }
+  
+  .responsive li{
+    display: block;
+    margin: 10px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
   }
   #hero{
     position: relative;
   }
-  #hero h1{
-    position: absolute;
-    left: 90px;
-    color:#8C442a;
-    background-color: #F2B694;
-    z-index: 1;
-    font-family: 'Sarabun', sans-serif;
-      font-weight: 600;
-  }
-  #hero img {
+  #hero img{
     position: relative;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 10px;
   }
-  #hero .btn{
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    border-radius: 10px;
-    background-color: #385273;
-    color: #F2B694;
-    font-size: 20px;
-    font-family: 'Sarabun', sans-serif;
-      font-weight: 700;
+  
+  #hero .btn {
+    position:absolute;
+    bottom: 100px;
+    right: 100px;
+
+  }
+  .juice img{
+    margin: 40px;
+  }
+  
+  .summary {
+    padding: 20px;
+    background-color: #91A646;
+    opacity: 0.8;
+  }
+  
+  .summary h2 {
+    margin-top: 0;
+  }
+  
+  ul {
+    text-align: left;
+  }
+  #fresh {
+    text-align: center;
+  }
+  
+  .weather {
+    padding: 20px;
+    margin-top: 22px;
+    background-color:#91A646;
+    opacity: 0.8;
+  }
+  
+  .social {
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .btn {
+    background-color: #F23535;
+    color:black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color:#F23535;
+    color:blacks;
+  }
+  footer{
+    background-color:#91A646;
+    text-align: center;
   }

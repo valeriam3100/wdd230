@@ -1,29 +1,69 @@
-<form action="/submit" method="post">
-    <fieldset>
-      <legend>Build Your Own Specialty Drink</legend>
-      <input type="text" name="first_name" placeholder="First Name">
-      <input type="email" name="email" placeholder="Email">
-      <input type="tel" name="phone_number" placeholder="Phone Number">
-      <select name="fruit_1">
-        <option value="">Select Fruit 1</option>
-        {% for fruit in fruits %}
-          <option value="{{ fruit.id }}">{{ fruit.name }}</option>
-        {% endfor %}
-      </select>
-      <select name="fruit_2">
-        <option value="">Select Fruit 2</option>
-        {% for fruit in fruits %}
-          <option value="{{ fruit.id }}">{{ fruit.name }}</option>
-        {% endfor %}
-      </select>
-      <select name="fruit_3">
-        <option value="">Select Fruit 3</option>
-        {% for fruit in fruits %}
-          <option value="{{ fruit.id }}">{{ fruit.name }}</option>
-        {% endfor %}
-      </select>
-      <textarea name="special_instructions" placeholder="Special Instructions"></textarea>
-      <input type="submit" value="Submit">
-    </fieldset>
-  </form>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fresh</title>
+  <link rel="stylesheet" href="style.css/small.css">
+    <link rel="stylesheet" href="style.css/medium.css">
+    <link rel="stylesheet" href="style.css/large.css">
+    <script defer src="scripts.js" ></script>
+</head>
+<body>
+  <header>
+    <h1>Bountiful Foods</h1>
+    <nav>
+        <ul class="navigation">
+    <li><a href="#" onclick="togglemenu()">&#9776; Menu</a></li>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="fresh.html">Fresh</a></li>
+    <li><a href="Aboutus.html">About us</a></li>
+    </ul>
+    </nav>
+    </header>
+    <main>
+    <section id="hero">
+        <picture>
+        <img src="images/iloveimg-compressed/julia-zolotova-M_xIaxQE3Ms-unsplash (2).jpg" alt="fruits">
+        </picture>
+        </section>
+  
+
+        <section id="fresh">
+          <h2>Make your own fruit drink</h2>
+          <form action="/submit" method="post">
+            <fieldset>
+              <legend>Build Your Own Specialty Drink</legend>
+              <input type="text" name="first_name" placeholder="First Name">
+              <input type="email" name="email" placeholder="Email">
+              <input type="tel" name="phone_number" placeholder="Phone Number">
+              <select name="fruit_1">
+                <option value="">Select Fruit 1</option>
+                {% for fruit in fruits %}
+                  <option value="{{ fruit.id }}">{{ fruit.name }}</option>
+                {% endfor %}
+              </select>
+              <select name="fruit_2">
+                <option value="">Select Fruit 2</option>
+                {% for fruit in fruits %}
+                  <option value="{{ fruit.id }}">{{ fruit.name }}</option>
+                {% endfor %}
+              </select>
+              <select name="fruit_3">
+                <option value="">Select Fruit 3</option>
+                {% for fruit in fruits %}
+                  <option value="{{ fruit.id }}">{{ fruit.name }}</option>
+                {% endfor %}
+              </select>
+              <textarea name="special_instructions" placeholder="Special Instructions"></textarea>
+              <input type="submit" value="Submit">
+            </fieldset>
+          </form>
+          </section>
+          </main>
+  <footer>
+    <p>Copyright &copy; 2023 Bountiful Foods</p>
+    </footer>
+</body>
+</html>
   
